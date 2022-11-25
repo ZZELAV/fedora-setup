@@ -43,9 +43,9 @@ sudo dnf install vim brave-browser zsh neofetch htop tldr ulauncher docker-ce do
 sudo flatpak install flathub com.spotify.Client
 
 # Software configuration
+sudo cp zshrc ~/.zshrc
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo cp .zshrc ~/
 
 sudo cp -r ulauncher ~/.config
 
